@@ -14,7 +14,7 @@ namespace Seion.Iof.Patches
     {
         protected override MethodBase GetTargetMethod()
         {
-            return AccessTools.Method(typeof(EditTagWindow), "Show", new Type[] { typeof(TagComponent), typeof(Action), typeof(Action), typeof(Action<string, int>) });
+            return AccessTools.Method(typeof(EditTagWindow), "Show", new Type[] { typeof(TagComponent) });
         }
 
         [PatchPrefix]
