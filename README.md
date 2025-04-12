@@ -4,6 +4,8 @@ Mod for organizing items in stash and containers in SPT.
 
 Original mod: https://hub.sp-tarkov.com/files/file/1152-inventory-organizing-features/
 
+Mirrored repository (for gitea) from: https://github.com/Meepowski/SPT-InventoryOrganizingFeatures/tree/7264136052f7b62acfaf5e76f8bb10d00a647ed4
+
 ## Credits
 
 - Original mod made by Nightingale
