@@ -1,5 +1,5 @@
 using EFT.InventoryLogic;
-using ContainerFilter = GClass2861;
+using ContainerFilter = GClass2928;
 
 namespace Seion.Iof
 {
