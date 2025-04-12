@@ -16,6 +16,7 @@
   </ItemGroup>
 
 	<ItemGroup>
+	<Reference Include="netstandard" />
     <Reference Include="references\Hollowed\hollowed.dll" />
     <Reference Include="references\Managed\Comfort.dll" />
     <Reference Include="references\Managed\ItemComponent.Types.dll" />
