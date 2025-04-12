@@ -11,3 +11,4 @@ Original mod: https://hub.sp-tarkov.com/files/file/1152-inventory-organizing-fea
 - Support for recursive container sorting added by aerde/Yume
 - Updated to 3.9.0 by Meepowski
 - Updated to 3.10.0 by KyoMiko
+- Updated to 3.11.x by garlicbreadtcg
