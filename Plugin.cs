@@ -10,7 +10,7 @@ using ChouUn.Iof.Patches;
 
 namespace ChouUn.Iof
 {
-    [BepInPlugin("com.chouun.iof", "Inventory Organizing Features", "1.5.0")]
+    [BepInPlugin("com.chouun.iof", "Inventory Organizing Features", "1.5.1")]
     public class Plugin : BaseUnityPlugin
     {
         public static bool EnableLogs = false;
