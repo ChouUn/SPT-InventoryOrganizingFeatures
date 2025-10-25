@@ -7,9 +7,9 @@ using HarmonyLib;
 using UnityEngine.UI;
 using SPT.Reflection.Patching;
 using EFT.InventoryLogic;
-using static Seion.Iof.UI.UserInterfaceElements;
+using static ChouUn.Iof.UI.UserInterfaceElements;
 
-namespace Seion.Iof.Patches
+namespace ChouUn.Iof.Patches
 {
     internal class PostGridSortPanelShow : ModulePatch
     {

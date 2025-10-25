@@ -1,6 +1,6 @@
 ﻿using EFT.InventoryLogic;
 
-namespace Seion.Iof.Features
+namespace ChouUn.Iof.Features
 {
     internal static class Locker
     {

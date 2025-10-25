@@ -6,7 +6,7 @@ using BepInEx.Logging;
 using EFT;
 using HarmonyLib;
 
-namespace Seion.Iof.Reflection
+namespace ChouUn.Iof.Reflection
 {
     /// <summary>
     /// Extension and helper class to simplify reflection.

@@ -1,7 +1,7 @@
 ﻿using System;
 using EFT.InventoryLogic;
 
-namespace Seion.Iof.Reflection
+namespace ChouUn.Iof.Reflection
 {
     /// <summary>
     /// Reflection of "ItemTransactionHelper" class. As of SPT-AKI 3.5.5 reference is GClass2429

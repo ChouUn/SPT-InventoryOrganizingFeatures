@@ -4,9 +4,9 @@ using EFT.UI;
 using HarmonyLib;
 using UnityEngine;
 using SPT.Reflection.Patching;
-using static Seion.Iof.UI.UserInterfaceElements;
+using static ChouUn.Iof.UI.UserInterfaceElements;
 
-namespace Seion.Iof.Patches
+namespace ChouUn.Iof.Patches
 {
     internal class PostTraderScreensGroupClose : ModulePatch
     {

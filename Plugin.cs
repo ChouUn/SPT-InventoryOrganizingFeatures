@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using BepInEx;
 using BepInEx.Logging;
-using Seion.Iof.Reflection;
-using Seion.Iof.Reflection.Extensions;
-using Seion.Iof.Features;
-using Seion.Iof.Patches;
+using ChouUn.Iof.Reflection;
+using ChouUn.Iof.Reflection.Extensions;
+using ChouUn.Iof.Features;
+using ChouUn.Iof.Patches;
 
-namespace Seion.Iof
+namespace ChouUn.Iof
 {
-    [BepInPlugin("com.seion.iof", "Seion.Iof", "1.2.0")]
+    [BepInPlugin("com.chouun.iof", "Inventory Organizing Features", "1.5.0")]
     public class Plugin : BaseUnityPlugin
     {
         public static bool EnableLogs = false;
@@ -19,7 +19,7 @@ namespace Seion.Iof
         private void Awake()
         {
             // Plugin startup logic
-            Logger.LogInfo($"Plugin com.seion.iof is loaded!");
+            Logger.LogInfo($"Plugin com.chouun.iof is loaded!");
             GlobalLogger = Logger;
             ReflectionHelper.Logger = Logger;
 
@@ -68,7 +68,7 @@ namespace Seion.Iof
             }
 
             NotificationManagerClass.DisplayWarningNotification(
-                $"Seion.Iof thew an exception. Perhaps version incompatibility? Exception: {ex.Message}",
+                $"ChouUn.Iof thew an exception. Perhaps version incompatibility? Exception: {ex.Message}",
                 duration: EFT.Communications.ENotificationDurationType.Infinite
                 );
 

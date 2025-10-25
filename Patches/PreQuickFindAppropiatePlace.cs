@@ -4,10 +4,10 @@ using EFT.InventoryLogic;
 using EFT.UI;
 using HarmonyLib;
 using SPT.Reflection.Patching;
-using Seion.Iof.Reflection;
-using static Seion.Iof.Features.Locker;
+using ChouUn.Iof.Reflection;
+using static ChouUn.Iof.Features.Locker;
 
-namespace Seion.Iof.Patches
+namespace ChouUn.Iof.Patches
 {
     internal class PreQuickFindAppropriatePlace : ModulePatch
     {

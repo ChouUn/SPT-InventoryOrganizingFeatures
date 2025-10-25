@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using EFT.HandBook;
-using Seion.Iof.Reflection.Extensions;
+using ChouUn.Iof.Reflection.Extensions;
 
-namespace Seion.Iof.Reflection
+namespace ChouUn.Iof.Reflection
 {
     internal class HandbookNode : ReflectionBase
     {

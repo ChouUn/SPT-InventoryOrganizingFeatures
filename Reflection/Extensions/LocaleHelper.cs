@@ -2,7 +2,7 @@
 using EFT;
 using EFT.InventoryLogic;
 
-namespace Seion.Iof.Reflection.Extensions
+namespace ChouUn.Iof.Reflection.Extensions
 {
     /// <summary>
     /// Reflection of a string Localization extension class with Localized, LocalizedName and all that jazz.

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Seion.Iof.Reflection
+namespace ChouUn.Iof.Reflection
 {
     internal class ReflectionBase
     {

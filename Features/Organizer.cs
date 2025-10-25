@@ -2,12 +2,12 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using EFT.InventoryLogic;
 using HarmonyLib;
-using Seion.Iof.Reflection;
-using Seion.Iof.Reflection.Extensions;
-using static Seion.Iof.Reflection.Extensions.LocaleHelper;
-using static Seion.Iof.Features.OrganizedContainer;
+using ChouUn.Iof.Reflection;
+using ChouUn.Iof.Reflection.Extensions;
+using static ChouUn.Iof.Reflection.Extensions.LocaleHelper;
+using static ChouUn.Iof.Features.OrganizedContainer;
 
-namespace Seion.Iof.Features
+namespace ChouUn.Iof.Features
 {
     internal class Organizer
     {

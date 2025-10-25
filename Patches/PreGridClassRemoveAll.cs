@@ -5,10 +5,10 @@ using System.Reflection;
 using EFT.InventoryLogic;
 using HarmonyLib;
 using SPT.Reflection.Patching;
-using Seion.Iof.Reflection;
-using static Seion.Iof.Features.Locker;
+using ChouUn.Iof.Reflection;
+using static ChouUn.Iof.Features.Locker;
 
-namespace Seion.Iof.Patches
+namespace ChouUn.Iof.Patches
 {
     // Static SortClass.Sort() checks if Item.CurrentLocation is null
     // so preventing sort locked items from being removed

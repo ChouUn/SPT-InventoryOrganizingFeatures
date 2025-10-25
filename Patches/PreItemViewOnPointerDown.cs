@@ -3,9 +3,9 @@ using System.Reflection;
 using EFT.UI.DragAndDrop;
 using HarmonyLib;
 using SPT.Reflection.Patching;
-using static Seion.Iof.Features.Locker;
+using static ChouUn.Iof.Features.Locker;
 
-namespace Seion.Iof.Patches
+namespace ChouUn.Iof.Patches
 {
     internal class PreItemViewOnPointerDown : ModulePatch
     {

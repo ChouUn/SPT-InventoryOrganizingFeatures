@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using BepInEx.Logging;
 using EFT.InventoryLogic;
-using Seion.Iof.Reflection;
-using Seion.Iof.Reflection.Extensions;
-using static Seion.Iof.Reflection.Extensions.LocaleHelper;
+using ChouUn.Iof.Reflection;
+using ChouUn.Iof.Reflection.Extensions;
+using static ChouUn.Iof.Reflection.Extensions.LocaleHelper;
 
-namespace Seion.Iof.Features
+namespace ChouUn.Iof.Features
 {
     internal class OrganizedContainer : IComparable<OrganizedContainer>
     {
@@ -170,8 +170,8 @@ namespace Seion.Iof.Features
             {
                 //if (CanAccept(item))
                 //{
-                //    Logger.LogWarning($"Seion.Iof Warning: Coudln't find {item.LocalizedName()} in handbook. Perhaps it's a modded item? It's not a critical error, just a warning.");
-                //    //NotificationManagerClass.DisplayWarningNotification($"Seion.Iof Warning: Coudln't find {item.LocalizedName()} in handbook. Perhaps it's a modded item?");
+                //    Logger.LogWarning($"ChouUn.Iof Warning: Coudln't find {item.LocalizedName()} in handbook. Perhaps it's a modded item? It's not a critical error, just a warning.");
+                //    //NotificationManagerClass.DisplayWarningNotification($"ChouUn.Iof Warning: Coudln't find {item.LocalizedName()} in handbook. Perhaps it's a modded item?");
                 //}
                 return false;
             }
@@ -186,8 +186,8 @@ namespace Seion.Iof.Features
             {
                 //if (CanAccept(item))
                 //{
-                //    Logger.LogWarning($"Seion.Iof Warning: Coudln't find {item.LocalizedName()} in handbook. Perhaps it's a modded item? It's not a critical error, just a warning.");
-                //    //NotificationManagerClass.DisplayWarningNotification($"Seion.Iof Warning: Coudln't find {item.LocalizedName()} in handbook. Perhaps it's a modded item?");
+                //    Logger.LogWarning($"ChouUn.Iof Warning: Coudln't find {item.LocalizedName()} in handbook. Perhaps it's a modded item? It's not a critical error, just a warning.");
+                //    //NotificationManagerClass.DisplayWarningNotification($"ChouUn.Iof Warning: Coudln't find {item.LocalizedName()} in handbook. Perhaps it's a modded item?");
                 //}
                 return false;
             }

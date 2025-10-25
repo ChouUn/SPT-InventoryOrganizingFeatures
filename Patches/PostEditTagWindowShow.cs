@@ -4,11 +4,11 @@ using EFT.InventoryLogic;
 using EFT.UI;
 using HarmonyLib;
 using SPT.Reflection.Patching;
-using static Seion.Iof.Features.Locker;
-using static Seion.Iof.Features.Organizer;
-using static Seion.Iof.Features.OrganizedContainer;
+using static ChouUn.Iof.Features.Locker;
+using static ChouUn.Iof.Features.Organizer;
+using static ChouUn.Iof.Features.OrganizedContainer;
 
-namespace Seion.Iof.Patches
+namespace ChouUn.Iof.Patches
 {
     internal class PostEditTagWindowShow : ModulePatch
     {

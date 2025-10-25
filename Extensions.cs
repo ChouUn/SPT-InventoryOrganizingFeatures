@@ -1,7 +1,7 @@
 using EFT.InventoryLogic;
 using ContainerFilter = GClass3124; // GClass2928 in SPT-AKI 3.14.x
 
-namespace Seion.Iof
+namespace ChouUn.Iof
 {
     internal static class Extensions
     {

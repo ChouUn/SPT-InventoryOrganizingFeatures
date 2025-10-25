@@ -6,10 +6,10 @@ using EFT.UI;
 using EFT.UI.DragAndDrop;
 using HarmonyLib;
 using SPT.Reflection.Patching;
-using Seion.Iof.Reflection;
-using static Seion.Iof.Features.Locker;
+using ChouUn.Iof.Reflection;
+using static ChouUn.Iof.Features.Locker;
 
-namespace Seion.Iof.Patches
+namespace ChouUn.Iof.Patches
 {
     internal class PostGetFailedProperty : ModulePatch
     {
@@ -39,8 +39,8 @@ namespace Seion.Iof.Patches
                         item ??= __instance.GetFieldValueOrDefault<Item>("Item");
                     if (item == null)
                     {
-                        Logger.LogWarning($"Seion.Iof Error | Patch@ {__instance.GetType()} Getter of Property \"Failed\": Item is still null. Skipping patch.");
-                        NotificationManagerClass.DisplayWarningNotification($"Seion.Iof Error | {__instance.GetType()} Item is still null. You should probably send your bepinex logs to mod developer.");
+                        Logger.LogWarning($"ChouUn.Iof Error | Patch@ {__instance.GetType()} Getter of Property \"Failed\": Item is still null. Skipping patch.");
+                        NotificationManagerClass.DisplayWarningNotification($"ChouUn.Iof Error | {__instance.GetType()} Item is still null. You should probably send your bepinex logs to mod developer.");
                         return;
                     }; // null safety
                     if (item.TryGetItemComponent(out TagComponent tagComp))

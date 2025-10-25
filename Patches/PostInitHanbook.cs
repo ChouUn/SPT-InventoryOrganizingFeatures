@@ -3,10 +3,10 @@ using System.Reflection;
 using EFT.UI;
 using HarmonyLib;
 using SPT.Reflection.Patching;
-using Seion.Iof.Reflection;
-using Seion.Iof.Features;
+using ChouUn.Iof.Reflection;
+using ChouUn.Iof.Features;
 
-namespace Seion.Iof.Patches
+namespace ChouUn.Iof.Patches
 {
     internal class PostInitHanbook : ModulePatch
     {

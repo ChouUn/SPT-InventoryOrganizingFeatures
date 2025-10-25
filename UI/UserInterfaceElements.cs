@@ -3,12 +3,12 @@ using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using Seion.Iof.Reflection;
-using Seion.Iof.Features;
+using ChouUn.Iof.Reflection;
+using ChouUn.Iof.Features;
 using EFT.InventoryLogic;
-using static Seion.Iof.Features.Organizer;
+using static ChouUn.Iof.Features.Organizer;
 
-namespace Seion.Iof.UI
+namespace ChouUn.Iof.UI
 {
     internal static class UserInterfaceElements
     {
