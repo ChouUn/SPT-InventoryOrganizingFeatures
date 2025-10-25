@@ -1,5 +1,5 @@
 using EFT.InventoryLogic;
-using ContainerFilter = GClass2928;
+using ContainerFilter = GClass3124; // GClass2928 in SPT-AKI 3.14.x
 
 namespace Seion.Iof
 {

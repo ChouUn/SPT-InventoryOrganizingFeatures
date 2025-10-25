@@ -3,36 +3,46 @@
   <PropertyGroup>
     <TargetFramework>net471</TargetFramework>
     <Description>Several inventory organizing features.</Description>
-    <Version>1.4.0</Version>
+    <Version>1.5.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="BepInEx.Core" Version="5.*" PrivateAssets="all" />
-    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" PrivateAssets="all" />
-    <PackageReference Include="UnityEngine.Modules" Version="2019.4.39" IncludeAssets="compile" />
-  </ItemGroup>
-
 	<ItemGroup>
 	<Reference Include="netstandard" />
-    <Reference Include="references\Hollowed\hollowed.dll" />
-    <Reference Include="references\Managed\Comfort.dll" />
-    <Reference Include="references\Managed\ItemComponent.Types.dll" />
-		<Reference Include="references\Managed\Newtonsoft.Json.UnityConverters.dll" />
-		<Reference Include="references\Managed\Unity.TextMeshPro.dll" />
-		<Reference Include="references\Managed\UnityEngine.UI.dll" />
-    <Reference Include="references\Managed\Sirenix.Serialization.dll" />
-    <Reference Include="references\Managed\Assembly-CSharp.dll" />
-    <Reference Include="spt-common">
-      <HintPath>references\BepInEx\plugins\spt\spt-common.dll</HintPath>
+    <Reference Include="0Harmony, Version=2.9.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Refs\BepInEx\plugins\core\0Harmony.dll</HintPath>
     </Reference>
-    <Reference Include="spt-custom">
-      <HintPath>references\BepInEx\plugins\spt\spt-custom.dll</HintPath>
+    <Reference Include="BepInEx">
+      <HintPath>Refs\BepInEx\plugins\core\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="spt-common">
+      <HintPath>Refs\BepInEx\plugins\spt\spt-common.dll</HintPath>
     </Reference>
     <Reference Include="spt-reflection">
-      <HintPath>references\BepInEx\plugins\spt\spt-reflection.dll</HintPath>
+      <HintPath>Refs\BepInEx\plugins\spt\spt-reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>Refs\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="ItemComponent.Types">
+      <HintPath>Refs\Managed\ItemComponent.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Refs\Managed\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>Refs\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>Refs\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Refs\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Serialization">
+      <HintPath>Refs\Managed\Sirenix.Serialization.dll</HintPath>
     </Reference>
 	</ItemGroup>
 
