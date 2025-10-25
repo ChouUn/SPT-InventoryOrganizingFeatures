@@ -9,8 +9,9 @@ Mirrored repository (for gitea) from: https://github.com/Meepowski/SPT-Inventory
 ## Credits
 
 - Original mod made by Nightingale
-- Updated to 3.8.3 by seionmoya/DeadLeaves
+- Ported to SPT 3.8.3 by seionmoya/DeadLeaves
 - Support for recursive container sorting added by aerde/Yume
-- Updated to 3.9.0 by Meepowski
-- Updated to 3.10.0 by KyoMiko
-- Updated to 3.11.x by garlicbreadtcg
+- Ported to SPT 3.9.0 by Meepowski
+- Ported to SPT 3.10.0 by KyoMiko
+- Ported to SPT 3.11.x by garlicbreadtcg
+- Ported to SPT 4.0.x by ChouUn
